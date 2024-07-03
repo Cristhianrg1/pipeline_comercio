@@ -11,7 +11,7 @@ Este proyecto contiene un pipeline de datos para cargar, transformar y consultar
 - `dags/utils/gsheets_connection.py`: Contiene función que permite consultar información en un google sheets.
 - `.env`: Archivo para configurar las variables de entorno (no incluido en el repositorio).
 - `requirements.txt`: Archivo con todas las dependencias necesarias para el proyecto.
-- `papyrus-technical-test-6fe0c6b3f085.json`: Archivo con las credenciales para acceder a Bigquery. Debe ser agregado en la raíz del proyecto.
+- `credentials.json`: Archivo con las credenciales para acceder a Bigquery. Debe ser agregado en la raíz del proyecto.
 
 ## Instalación
 
@@ -31,7 +31,7 @@ Este proyecto contiene un pipeline de datos para cargar, transformar y consultar
    ```
 4. Crear un archivo `.env` en la raíz del proyecto con el siguiente contenido:
    ```plaintext
-   CREDENTIALS_PATH=papyrus-technical-test-6fe0c6b3f085.json
+   CREDENTIALS_PATH=credentials.json
    ```
 
 ## Ejecución
