@@ -1,0 +1,6 @@
+dagster-env/
+credentials.json
+papyrus-technical-test-6fe0c6b3f085.json
+.env
+__pycache__/
+.DS_Store
